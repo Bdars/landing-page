@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@400;700&family=Pirata+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pirata+One&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+body 
+{
+    font-family: 'Josefin Slab',sans-serif;
+    font-size: 18px;
+    background-color: #006994;
+}
+.navbar 
+{
+    height: 80px;
+    background-color: rgb(233, 236, 20);
+    color: #076974;
+}
+.logo img
+{
+    width: 80px;
+    margin-left: 30px;
+}
+.container
+{
+    
+    height: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: gold;
+    padding: 0 20px 0 20px;
+}
+.nav ul 
+{
+    font-weight: bold;
+    font-size: 25px;
+    list-style: none ;
+    display: flex;
+    gap: 30px;
+}
+.img-intro img 
+{
+    width: 600px;
+    border-radius: 15px;
+    margin: 20px 0 20px 0;
+    
+}
+.intro 
+{
+    max-width: 700px;
+    line-height: 1.5;
+    text-align: justify;
+    margin-left: 30px;
+    border: 2px solid #03343A;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    padding: 10px;
+}
+.intro h1
+{
+    color:#087E8B;
+}
+.intro p
+{
+    font-size: 22px;
+}
+.flyer .container
+{
+    height: 130px;
+    justify-content: space-around;
+    background-color: #CBD0D8;
+    
+    
+}
+.box img
+{
+    width: 298px;
+    height: 126px;
+     
+}
+.doa
+{
+    text-align: center;
+    font-size: 18px;
+    max-width: 200px;
+}
+.doa img
+{
+    width: 118px;
+    border:2px solid #03343A;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    margin: 10px;
+}
+.wanted h1{
+    
+        font-family: 'Pirata One',sans-serif;
+        color: #03343A;
+        font-size: 60px;    
+        height: 100%;
+        text-decoration: underline;
+        max-width: 1500px;
+        margin: 0 auto;
+        text-align: center;
+        background-color: gold;
+        padding: 60px 20px 20px 20px;
+    
+}
+.wanted .container
+{
+    justify-content: center;
+    align-items: flex-start;
+    gap:30px;
+}
+.quote .container img 
+{
+    width: 400px;
+    border-radius: 15px; 
+}
+.quote .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    gap: 30px;
+    background-color: #CBD0D8;
+    color: #03343A;
+
+}
+.text 
+{
+    max-width: 600px;
+    font-size: 30px;
+    font-style: italic;
+}
+.quo p
+{
+    font-weight: bold;
+}
+.quo 
+{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 1.5;
+}
+.toomuch .text
+{
+    font-size: 30px;
+    font-style: normal;
+    color: white;
+}
+.toomuch
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:60px;
+    min-height: 150px;
+    padding: 0px 20px;
+    border-radius: 10px;
+
+}
+.signup .container
+{
+    min-height: 400px;
+    justify-content: center;
+    align-items: center;
+    background-image:url('./img/one-piece-cheer.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+button
+{
+    font-size: 20px;
+    border: 2px solid #076974;
+    border-radius: 3px;
+    padding: 5px 15px;
+    background-color: #CBD0D8;
+    color: #076974;
+    font-style: italic;
+}
+.footer .container
+{
+    height: 80px;
+}
+.footer .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.copyright
+{
+    font-weight: bold;
+    font-size: 20px;
+    color: #076974;
+}
+.navbar,.presentation,.footer,.wanted
+{
+    background-color: gold;
+}
+.flyer,.quote
+{
+    background-color: #CBD0D8;
+}
+
+.nav a
+
+{
+    text-decoration: none;
+    color: #076974;
+}
+.nav a:hover
+{
+    opacity: 50%;
+    text-decoration: underline;
+}
+
+
+@media(max-width: 768px)
+{
+    .presentation .container,.wanted .container,.quote .container
+    {
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        padding: 30px;
+    }
+}
+
